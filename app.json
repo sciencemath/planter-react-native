@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "planter",
+    "slug": "planter",
+    "scheme": "planter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.memoryallocation.planter"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.memoryallocation.planter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/caveat/Caveat_400Regular.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-quick-actions",
+        {
+          "androidIcons": {
+            "leaf": {
+              "foregroundImage": "./assets/leaf.png",
+              "backgroundColor": "#ffffff"
+            }
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "632416ec-a9d5-4d40-819d-da5a91479419"
+      }
+    },
+    "owner": "autonomousmachine"
+  }
+}
